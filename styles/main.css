@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(249, 234, 225);
+}
+
+nav{
+    align-items: center;
+}
+
+div{
+
+    margin: -5px;
+    background-color: rgb(137, 27, 60);
+}
