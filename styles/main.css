@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
 *{
-    font-family: Futura;
+    font-family: 'Jost', sans-serif;
+    color: white;
 }
 
 body{
@@ -7,7 +11,7 @@ body{
 }
 
 nav{
-    
+    background-color: rgb(137, 27, 60);
 }
 
 #subtitle{
@@ -24,4 +28,8 @@ div{
 footer{
     background-color: rgba(0, 0, 0, 0.801);
     color: white;
+}
+
+button{
+    color: black;
 }
