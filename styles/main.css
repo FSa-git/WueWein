@@ -16,12 +16,16 @@ header{
 }
 
 nav{
-    background-color: rgb(137, 27, 60);
+    background-color: #1d1d1b;
     margin-left: 100px;
 }
 
 nav a{
     margin-right: 10px;
+}
+
+#logo{
+    background-color: #1d1d1b;
 }
 
 #subtitle{
@@ -55,7 +59,7 @@ button{
               }
         
               .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
-                stroke: #1d1d1b;
+                stroke: #fff;
                 stroke-miterlimit: 10;
               }
         
@@ -68,7 +72,7 @@ button{
               }
         
               .cls-7 {
-                fill: #1d1d1b;
+                fill: #fff;
               }
         
               .cls-2, .cls-3 {
@@ -89,4 +93,16 @@ button{
         
               .cls-5 {
                 stroke-width: 5px;
+              }
+              .cls-3:hover{
+                fill: #fff;
+              }
+            .cls-2:hover{
+                fill: #fff;
+              } 
+            .cls-4:hover{
+                fill: #fff;
+            }
+            .cls-7:hover{
+                fill: #fff;
               }
