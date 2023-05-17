@@ -4,6 +4,8 @@
 @import "logo.css";
 @import "header.css";
 
+@import "footer.css";
+
 *, html, body{
     scroll-behavior: smooth;
 }
@@ -13,17 +15,11 @@ body{
     background-color: #a20d46;
 }
 
-
 div{
 
     margin: -5px;
     background-color: rgb(137, 27, 60);
     padding-bottom: 5px;
-}
-
-footer{
-    background-color: rgba(0, 0, 0, 0.801);
-    color: white;
 }
 
 button{
