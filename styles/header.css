@@ -12,6 +12,7 @@ header{
 header a{
     /* Nicht unterstrichen */
     text-decoration: none;
+    color: white;
 }
 
 nav{
