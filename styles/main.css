@@ -2,8 +2,13 @@
 
 @import "fonts.css";
 
+*, html, body{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-color: rgb(249, 234, 225);
+    /* Hintergrund Farbe */
+    background-color: #a20d46;
 }
 
 header{
