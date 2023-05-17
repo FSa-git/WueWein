@@ -1,0 +1,23 @@
+/* Header CSS */
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+/* header a{
+    text-decoration: none;
+} */
+
+nav{
+    background-color: #1d1d1b;
+    margin-left: 100px;
+}
+
+nav a{
+    margin-right: 10px;
+}
+
+#logo{
+    background-color: #1d1d1b;
+}

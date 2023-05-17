@@ -1,6 +1,7 @@
 /* Main-CSS */
 
 @import "fonts.css";
+@import "header.css";
 
 *, html, body{
     scroll-behavior: smooth;
@@ -9,24 +10,6 @@
 body{
     /* Hintergrund Farbe */
     background-color: #a20d46;
-}
-
-header{
-    display: flex;
-    align-items: center;
-}
-
-nav{
-    background-color: #1d1d1b;
-    margin-left: 100px;
-}
-
-nav a{
-    margin-right: 10px;
-}
-
-#logo{
-    background-color: #1d1d1b;
 }
 
 #subtitle{
