@@ -1,0 +1,58 @@
+/*Logo SVG CSS*/
+
+#Ebene_1{
+    width: 180px;
+    height: 120px;
+}
+              .cls-1 {
+                stroke-width: 3px;
+              }
+        
+              .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+                stroke: #fff;
+                stroke-miterlimit: 10;
+              }
+        
+              .cls-1, .cls-4, .cls-5 {
+                fill: none;
+              }
+        
+              .cls-6 {
+                fill: #fff;
+              }
+        
+              .cls-7 {
+                fill: #fff;
+              }
+        
+              .cls-2, .cls-3 {
+                fill: #a20d46;
+              }
+        
+              .cls-2, .cls-3, .cls-4, .cls-5 {
+                stroke-linecap: round;
+              }
+        
+              .cls-3 {
+                stroke-width: 2px;
+              }
+        
+              .cls-4 {
+                stroke-width: 4px;
+              }
+        
+              .cls-5 {
+                stroke-width: 5px;
+              }
+              .cls-3:hover{
+                fill: #fff;
+              }
+            .cls-2:hover{
+                fill: #fff;
+              } 
+            .cls-4:hover{
+                fill: #fff;
+            }
+            .cls-7:hover{
+                fill: #fff;
+              }
