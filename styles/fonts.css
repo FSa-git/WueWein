@@ -1,0 +1,13 @@
+/* Für Schrift-Einstellungen */
+
+/* Font für allg. Texte */
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* Font für Überschriften bzw. (Logo) */
+
+/* -- */
+
+body{
+    font-family: 'Jost';
+    color: white;
+}

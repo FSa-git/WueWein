@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+/* Main-CSS */
 
-
-*{
-    font-family: 'Jost', sans-serif;
-    color: white;
-}
+@import "fonts.css";
 
 body{
     background-color: rgb(249, 234, 225);
