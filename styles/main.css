@@ -10,8 +10,18 @@ body{
     background-color: rgb(249, 234, 225);
 }
 
+header{
+    display: flex;
+    align-items: center;
+}
+
 nav{
     background-color: rgb(137, 27, 60);
+    margin-left: 100px;
+}
+
+nav a{
+    margin-right: 10px;
 }
 
 #subtitle{
@@ -33,3 +43,50 @@ footer{
 button{
     color: black;
 }
+
+
+/*Logo bild*/
+#Ebene_1{
+    width: 180px;
+    height: 120px;
+}
+              .cls-1 {
+                stroke-width: 3px;
+              }
+        
+              .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+                stroke: #1d1d1b;
+                stroke-miterlimit: 10;
+              }
+        
+              .cls-1, .cls-4, .cls-5 {
+                fill: none;
+              }
+        
+              .cls-6 {
+                fill: #fff;
+              }
+        
+              .cls-7 {
+                fill: #1d1d1b;
+              }
+        
+              .cls-2, .cls-3 {
+                fill: #a20d46;
+              }
+        
+              .cls-2, .cls-3, .cls-4, .cls-5 {
+                stroke-linecap: round;
+              }
+        
+              .cls-3 {
+                stroke-width: 2px;
+              }
+        
+              .cls-4 {
+                stroke-width: 4px;
+              }
+        
+              .cls-5 {
+                stroke-width: 5px;
+              }
