@@ -1,6 +1,9 @@
 /* Header CSS */
 
 header{
+    /* nav-links in die Mitte */
+    justify-content: center;
+    
     display: flex;
     align-items: center;
     position: sticky;
@@ -14,7 +17,7 @@ header a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    margin-left: 45px;
+    margin: 0 15px;
     transition: all 0.5s ease;
 }
 
@@ -28,6 +31,7 @@ header a:hover{
 nav{
     background-color: #1d1d1b;
     margin-left: 100px;
+    margin: 0 auto;
 }
 
 #logo{
