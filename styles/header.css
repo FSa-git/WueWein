@@ -10,7 +10,14 @@ header{
     top: 0;
     z-index: 999;
     background-color: #1d1d1b;
-}
+
+    /* width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: #1d1d1b;
+    color: white; */
+
+} 
 
 header a{
     /* Nicht unterstrichen */
@@ -38,3 +45,10 @@ nav{
     background-color: #1d1d1b;
 }
 
+/* Klappt nicht so ganz.. */
+/* .progress-bar{
+    height: .5rem;
+    width: 0%;
+    position: fixed;
+    background-color: aquamarine;
+} */
