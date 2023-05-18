@@ -25,3 +25,26 @@ div{
 button{
     color: black;
 }
+
+fieldset{
+    border-style: none;
+    border-radius: 5%;
+    background-color: #1d1d1b;
+}
+
+.form-btn{
+    padding: 20px;
+    font-family: 'Jost';
+    border-radius: 30%;
+    background-color: #a20d46;
+    border-style: none;
+    
+}
+
+.form-btn:hover{
+    background-color: goldenrod;
+    color: white;
+    text-decoration: overline;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
