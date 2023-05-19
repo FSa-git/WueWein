@@ -17,15 +17,13 @@ body{
     /* margin: 0; */
 }
 
-div{
-
-    margin: -5px;
-    background-color: rgb(137, 27, 60);
-    padding-bottom: 5px;
-}
-
 section{
     padding: 50px;
+}
+
+.section_2{
+    padding: 50px;
+    background-color:rgb(137, 27, 60);
 }
 
 #main-pic{
@@ -45,6 +43,7 @@ fieldset{
 
 h2{
     text-align: center;
+    text-decoration: underline;
 }
 
 form h3{
