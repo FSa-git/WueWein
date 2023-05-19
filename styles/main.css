@@ -93,3 +93,17 @@ input{
     width: 48px;
     height: auto;
 }
+
+.wein_flasche:hover{
+    transition: all 0.5s;
+    transform: rotate(40deg);
+}
+
+figure{
+    border-radius: 10px;
+}
+
+figure:hover {
+    transition: all 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+} 
