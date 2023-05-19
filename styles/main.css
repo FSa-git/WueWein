@@ -4,6 +4,7 @@
 @import "/WueWein/styles/logo.css";
 @import "/WueWein/styles/header.css";
 
+@import "/WueWein/styles/bw.css";
 @import "/WueWein/styles/footer.css";
 
 *, html, body{
