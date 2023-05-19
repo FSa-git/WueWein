@@ -1,10 +1,10 @@
 /* Main-CSS */
 
-@import "fonts.css";
-@import "logo.css";
-@import "header.css";
+@import "/WueWein/styles/fonts.css";
+@import "/WueWein/styles/logo.css";
+@import "/WueWein/styles/header.css";
 
-@import "footer.css";
+@import "/WueWein/styles/footer.css";
 
 *, html, body{
     scroll-behavior: smooth;
