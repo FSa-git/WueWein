@@ -24,6 +24,10 @@ div{
     padding-bottom: 5px;
 }
 
+section{
+    padding: 50px;
+}
+
 #main-pic{
     width: 100%;
     height: 700px;
@@ -39,7 +43,7 @@ fieldset{
     background-color: #1d1d1b;
 }
 
-form h2{
+h2{
     text-align: center;
 }
 
@@ -68,4 +72,9 @@ input{
     text-decoration: overline;
     cursor: pointer;
     transition: all 0.5s ease-out;
+}
+
+.wein_flasche{
+    width: 48px;
+    height: auto;
 }
