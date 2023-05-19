@@ -91,7 +91,7 @@ input{
 }
 
 .wein_flasche{
-    width: 48px;
+    width: 150px;
     height: auto;
 }
 
@@ -115,4 +115,8 @@ iframe{
 iframe:hover{
     transition: 0.8s;
     border: 2px #fbee6d solid;
+}
+#hashtag{
+    text-align: center;
+    font-size: 50px;
 }
