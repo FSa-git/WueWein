@@ -16,8 +16,14 @@
       }
 
 .cls-8 {
+        fill: #a20d46;
         stroke: #fbee6d;
       }
+
+.cls-8:hover{
+    transition: all 0.5s;
+    transform: translate(5px);
+}
 
 .bw_container{
     display: flex;

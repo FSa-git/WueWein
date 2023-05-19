@@ -108,3 +108,7 @@ figure:hover {
     transition: all 0.5s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 } 
+iframe{
+    border-radius: 5%;
+    border-style: none;
+}
