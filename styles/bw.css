@@ -27,21 +27,18 @@
 
 .bw_container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
-    border: 1px;
+    /* border: 1px;
     border-color: #000;
-    border-style: dotted;
+    border-style: dotted; */
 }
 
 .flex-item-1{
-    order: 2;
-}
-.flex-item-2{
     order: 1;
 }
-.flex-item-3{
-    order: 3;
+.flex-item-2{
+    order: 2;
 }
 
 #bw_video{
