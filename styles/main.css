@@ -125,6 +125,15 @@ iframe:hover{
     font-size: 50px;
 }
 
-/* .icons svg{
-    color: white;
-} */
+#burg:hover{
+    transition: all 2.0s;
+    background-color: #1d1d1b;
+}
+#gute:hover{
+    transition: all 2.0s;
+    background-color: goldenrod;
+}
+#troll:hover{
+    transition: all 2.0s;
+    background-color: #6d0b2f;
+}

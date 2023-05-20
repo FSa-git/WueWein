@@ -12,3 +12,7 @@ footer hr{
     height: 2px;
     background-image: linear-gradient(to right,rgba(0,0,0,0),goldenrod,rgba(0,0,0,0));
 }
+
+footer a{
+    color: #fbee6d;
+}
