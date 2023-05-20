@@ -75,6 +75,12 @@ input{
     width: auto;
 }
 
+#welcome-btn{
+    color: white;
+}
+
+
+
 .form-btn{
     padding: 10px 20px;
     font-family: 'Jost';
@@ -136,4 +142,7 @@ iframe:hover{
 #troll:hover{
     transition: all 2.0s;
     background-color: #6d0b2f;
+}
+.bi-chevron-double-down{
+    margin-top: -250px;    
 }
