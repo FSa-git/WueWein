@@ -9,6 +9,10 @@
 
 *, html, body{
     scroll-behavior: smooth;
+
+    /* Um Nav-bar über den ganzen Bildschirm verläuft */
+    margin: 0;
+    padding: 0;
 }
 
 body{
