@@ -9,14 +9,16 @@
 
 // });
 
-function verifyAge() {
-    var birthDate = new Date(document.getElementById('birthdate').value);
-    var currentDate = new Date();
-    var age = currentDate.getFullYear() - birthDate.getFullYear();
+document.addEventListener('click',(e)=>{
 
-    if (age >= 18) {
+let over = document.getElementById('age_over');
+let under = document.getElementById('age_under');
+
+    if (e.target === over){
         window.location.href = 'index.html';
-    } else {
+    }
+    else if(e.target === under){
         window.location.href = 'https://www.youtube.com';
     }
-}
+
+});
