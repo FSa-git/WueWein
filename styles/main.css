@@ -79,6 +79,13 @@ input{
     color: white;
 }
 
+#welcome-btn svg{
+    transition: transform 0.3s ease;
+}
+
+#welcome-btn:hover svg{
+    transform: translateY(15px);
+}
 
 
 .form-btn{
