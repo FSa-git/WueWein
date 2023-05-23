@@ -46,6 +46,15 @@
     height: 200px;
 }
 
+#Ebene_10{
+    width: 150px;
+    height: 150px;
+}
+
+.cls-10 {
+        fill: #1d1d1b; 
+}
+
 /* @media (min-width: 600px) {
     .bw_container{
         flex-direction: column;
