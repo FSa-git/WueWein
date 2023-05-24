@@ -1,6 +1,7 @@
 /* Main-CSS */
 
 @import "/WueWein/styles/fonts.css";
+@import "/WueWein/styles/var.css";
 @import "/WueWein/styles/logo.css";
 @import "/WueWein/styles/header.css";
 

@@ -1,0 +1,11 @@
+/* Hier werden die Farben-Variablen angegeben */
+
+/* Farben */
+:root{
+    --FarbeRot:#a20d46;
+    --FarbeSchwarz: #1d1d1b;
+
+    --FarbeGelb: #fbee6d;
+
+    --FarbeWeiss: rgb(249, 234, 225);
+}
