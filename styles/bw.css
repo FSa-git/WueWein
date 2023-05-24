@@ -20,9 +20,45 @@
         stroke: #fbee6d;
       }
 
-.cls-8:hover{
+      /* Ohne Key-Frames */
+/* .cls-8:hover{
     transition: all 0.5s;
     transform: translate(5px);
+} */
+
+/* Mit Key-Frames */
+.cls-8:hover{
+  animation: bewegeBw 1.5s; 
+}
+
+@keyframes bewegeBw{
+  /* 0%{
+    transform: translate(0);
+  }
+  50%{
+    transform: translate(15px);
+  }
+  100%{
+    transform: translate(0);
+  } */
+
+/* Es soll größer werden */
+
+  0%{
+    transform: translate(0);
+  }
+  25%{
+    transform: translate(15px);
+  }
+  50%{
+    transform: translate(0);
+  }
+  75%{
+    transform: translate(15px);
+  }
+  100%{
+    transform: translate(0);
+  }
 }
 
 .bw_container{
@@ -65,39 +101,45 @@
     height: 350px;
 }
 
-      .cls-10 {
-        fill: #fbee6d;
-      }
+.cls-10 {
+  fill: #fbee6d;
+}
 
-      .cls-20 {
-        fill: #a20d46;
-      }
+.cls-20 {
+  fill: #a20d46;
+}
 
-      .cls-30 {
-        fill: #000;
-      }
-      #Gelbe_Sterne:hover{
-        transition: all 0.5s;
-        transform: translate(5px);
+.cls-30 {
+  fill: #000;
+}
+/* #Gelbe_Sterne:hover{
+  transition: all 0.5s;
+  transform: translate(5px);
+}
+
+#Bio_Label:hover{
+  transition: all 4.0s;
+  transform: rotate(20deg) ;
+} */
+
+#Roter_Hintergrund:hover + #Gelbe_Sterne .star {
+    animation: moveStars 2s;
+  }
+  
+  @keyframes moveStars {
+    0% {
+      transform: translate(0); ;
     }
 
-    #Bio_Label:hover{
-        transition: all 4.0s;
-        transform: rotate(20deg) ;
+    50%{
+      transform: translate(5px) ;
     }
 
-    /* #Roter_Hintergrund:hover + #Gelbe_Sterne .star {
-        animation: moveStars 1s;
-      }
-      
-      @keyframes moveStars {
-        0% {
-          transform: translate(0, 0);
-        }
-        100% {
-          transform: translate(10px, 10px);
-        }
-      } */
+    100% {
+      transform: translate(0) ;
+    }
+
+  }
 
       /*!SECTION Traube */
 
@@ -110,7 +152,7 @@
     /* transition: all 3.0s;
     transform: rotate(20deg) ; */
 
-    animation: bewegeWein 3.0s;
+    animation: bewegeWein 2.5s infinite;
 }
 
 @keyframes bewegeWein {
@@ -125,47 +167,47 @@
     }
   }
 
-        .cls-11 {
-          stroke-width: 3px;
-        }
+.cls-11 {
+  stroke-width: 3px;
+}
   
-        .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
-          stroke-linecap: round;
-          stroke-miterlimit: 10;
-        }
-  
-        .cls-11, .cls-12, .cls-13, .cls-15 {
-          stroke: #000;
-        }
-  
-        .cls-11, .cls-13, .cls-14, .cls-15 {
-          fill: none;
-        }
-  
-        .cls-12 {
-          fill: #a20d46; /*TODO - hier kann man nochmal bei illustrator nachmalen*/
-        }
+.cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
 
-        .cls-12:hover{
-          /* transition: all 0.5s;
-          transform: rotate(40deg);  ich würde gerne die drehen lassen, wie bei den Flaschen */ 
-        }
-  
-        .cls-12, .cls-14, .cls-15 {
-          stroke-width: 5px;
-        }
-  
-        .cls-13 {
-          stroke-width: 4px;
-        }
-  
-        .cls-14 {
-          /* stroke: #fbee6d; */
-          fill: #a20d46;
-        stroke: #fbee6d;
-        }
+.cls-11, .cls-12, .cls-13, .cls-15 {
+  stroke: #000;
+}
 
-        .cls-14:hover{
-            transition: all 0.5s;
-            transform: translate(5px);
-        }
+.cls-11, .cls-13, .cls-14, .cls-15 {
+  fill: none;
+}
+
+.cls-12 {
+  fill: #a20d46; /*TODO - hier kann man nochmal bei illustrator nachmalen*/
+}
+
+.cls-12:hover{
+  /* transition: all 0.5s;
+  transform: rotate(40deg);  ich würde gerne die drehen lassen, wie bei den Flaschen */ 
+}
+
+.cls-12, .cls-14, .cls-15 {
+  stroke-width: 5px;
+}
+
+.cls-13 {
+  stroke-width: 4px;
+}
+
+.cls-14 {
+  /* stroke: #fbee6d; */
+  fill: #a20d46;
+stroke: #fbee6d;
+}
+
+.cls-14:hover{
+    transition: all 0.5s;
+    transform: translate(5px);
+}
