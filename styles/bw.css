@@ -26,19 +26,29 @@
 }
 
 .bw_container{
-    display: flex;
-    flex-direction: row;
-
-    /* border: 1px;
-    border-color: #000;
-    border-style: dotted; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
 }
 
 .flex-item-1{
     order: 1;
 }
+
 .flex-item-2{
     order: 2;
+}
+
+.flex-item-3{
+    order: 3;
+}
+
+.yt_video{
+    display: flex;
+    
+    justify-content: center;
+    
 }
 
 #bw_video{
@@ -46,26 +56,78 @@
     height: 200px;
 }
 
-#Ebene_10{
-    width: 150px;
-    height: 150px;
+/* ANCHOR - BIO Label */
+
+#Bio_Label{
+    width: 250px;
+    height: 250px;
 }
 
-.cls-10 {
-        fill: #1d1d1b; 
+      .cls-10 {
+        fill: #fbee6d;
+      }
+
+      .cls-20 {
+        fill: #a20d46;
+      }
+
+      .cls-30 {
+        fill: #000;
+      }
+      #Gelbe_Sterne:hover{
+        transition: all 0.5s;
+        transform: translate(5px);
+    }
+
+    #Roter_Hintergrund:hover + #Gelbe_Sterne .star {
+        animation: moveStars 1s;
+      }
+      
+      @keyframes moveStars {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(10px, 10px);
+        }
+      }
+
+      /*!SECTION Traube */
+
+#Traube{
+    width: 200px;
+    height: 250px;
 }
 
-/* @media (min-width: 600px) {
-    .bw_container{
-        flex-direction: column;
-    }
-    .flex-item-1{
-        order: 3;
-    }
-    .flex-item-2{
-        order: 1;
-    }
-    .flex-item-3{
-        order: 2;
-    }
-} */
+        .cls-11 {
+          stroke-width: 3px;
+        }
+  
+        .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+          stroke-linecap: round;
+          stroke-miterlimit: 10;
+        }
+  
+        .cls-11, .cls-12, .cls-13, .cls-15 {
+          stroke: #000;
+        }
+  
+        .cls-11, .cls-13, .cls-14, .cls-15 {
+          fill: none;
+        }
+  
+        .cls-12 {
+          fill: #a20d46;
+        }
+  
+        .cls-12, .cls-14, .cls-15 {
+          stroke-width: 5px;
+        }
+  
+        .cls-13 {
+          stroke-width: 4px;
+        }
+  
+        .cls-14 {
+          stroke: #fbee6d;
+        }

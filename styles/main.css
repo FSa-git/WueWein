@@ -5,6 +5,7 @@
 @import "/WueWein/styles/header.css";
 
 @import "/WueWein/styles/bw.css";
+@import "/WueWein/styles/form.css";
 @import "/WueWein/styles/footer.css";
 
 *, html, body{
@@ -66,6 +67,10 @@ h2, h2:hover {
     background-position: 50% 100%;
     }
 
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
 
 form h3{
     text-decoration: underline;
@@ -129,6 +134,7 @@ iframe{
     border-radius: 10px;
     border-style: none;
 }
+
 iframe:hover{
     transition: 0.8s;
     border: 2px #fbee6d solid;

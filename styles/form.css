@@ -1,0 +1,36 @@
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form h3{
+    text-decoration: underline;
+}
+
+input{
+    width: auto;
+}
+
+
+.form-btn{
+    padding: 10px 20px;
+    font-family: 'Jost';
+    border-radius: 30px;
+    background-color: #a20d46;
+    border-style: none;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-btn:hover{
+    background-color: goldenrod;
+    color: white;
+    text-decoration: overline;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
