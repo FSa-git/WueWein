@@ -6,6 +6,7 @@
 @import "/WueWein/styles/header.css";
 
 @import "/WueWein/styles/bw.css";
+@import "/WueWein/styles/sortiment.css";
 @import "/WueWein/styles/form.css";
 @import "/WueWein/styles/footer.css";
 
@@ -40,12 +41,6 @@ section{
 
 button{
     color: black;
-}
-
-fieldset{
-    border-style: none;
-    border-radius: 15px;
-    background-color: #1d1d1b;
 }
 
 /*NOTE - Unterstrichener Effekt */
@@ -89,24 +84,6 @@ input{
     transform: translateY(15px);
 }
 
-.wein_flasche{
-    width: 150px;
-    height: auto;
-}
-
-.wein_flasche:hover{
-    transition: all 0.5s;
-    transform: rotate(40deg);
-}
-
-figure{
-    border-radius: 10px;
-}
-
-figure:hover {
-    transition: all 0.5s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-} 
 iframe{
     border-radius: 10px;
     border-style: none;
@@ -121,23 +98,6 @@ iframe:hover{
     font-size: 50px;
 }
 
-#burg:hover{
-    transition: all 2.0s;
-    background-color: #1d1d1b;
-}
-#gute:hover{
-    transition: all 2.0s;
-    background-color: goldenrod;
-}
-
-#troll{
-    margin-top: 50px;
-}
-
-#troll:hover{
-    transition: all 2.0s;
-    background-color: #6d0b2f;
-}
 .bi-chevron-double-down{
     margin-top: -250px;    
 }

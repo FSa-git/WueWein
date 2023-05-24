@@ -54,3 +54,9 @@ form h3{
     cursor: pointer;
     transition: all 0.5s ease-out;
 } */
+
+fieldset{
+    border-style: none;
+    border-radius: 15px;
+    background-color: #1d1d1b;
+}

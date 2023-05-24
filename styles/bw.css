@@ -28,7 +28,7 @@
 
 /* Mit Key-Frames */
 .cls-8:hover{
-  animation: bewegeBw 1.5s; 
+  animation: bewegeBw 1.5s forwards; 
 }
 
 @keyframes bewegeBw{
@@ -47,13 +47,19 @@
   0%{
     transform: translate(0);
   }
-  25%{
+  100%{
     transform: translate(15px);
   }
-  50%{
-    transform: translate(0);
-  }
-  75%{
+}
+
+/* Zurück */
+
+.cls-8:not(:hover) {
+  animation: bewegeBwBack 1.5s forwards;
+}
+
+@keyframes bewegeBwBack{
+  0%{
     transform: translate(15px);
   }
   100%{
@@ -128,7 +134,7 @@
   
   @keyframes moveStars {
     0% {
-      transform: translate(0); ;
+      transform: translate(0); 
     }
 
     50%{
