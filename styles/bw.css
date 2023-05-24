@@ -30,6 +30,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    margin-top: 100px;
 }
 
 .flex-item-1{
@@ -42,6 +43,7 @@
 
 .flex-item-3{
     order: 3;
+    margin-bottom: 100px;
 }
 
 .yt_video{
@@ -56,11 +58,11 @@
     height: 200px;
 }
 
-/* ANCHOR - BIO Label */
+/*SECTION - BIO Label */
 
 #Bio_Label{
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 350px;
 }
 
       .cls-10 {
@@ -79,7 +81,12 @@
         transform: translate(5px);
     }
 
-    #Roter_Hintergrund:hover + #Gelbe_Sterne .star {
+    #Bio_Label:hover{
+        transition: all 4.0s;
+        transform: rotate(20deg) ;
+    }
+
+    /* #Roter_Hintergrund:hover + #Gelbe_Sterne .star {
         animation: moveStars 1s;
       }
       
@@ -90,14 +97,33 @@
         100% {
           transform: translate(10px, 10px);
         }
-      }
+      } */
 
       /*!SECTION Traube */
 
 #Traube{
-    width: 200px;
-    height: 250px;
+    width: 450px;
+    height: 350px;
 }
+
+#Traube:hover{
+    /* transition: all 3.0s;
+    transform: rotate(20deg) ; */
+
+    animation: bewegeWein 3.0s;
+}
+
+@keyframes bewegeWein {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(25deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 
         .cls-11 {
           stroke-width: 3px;
@@ -117,7 +143,12 @@
         }
   
         .cls-12 {
-          fill: #a20d46;
+          fill: #a20d46; /*TODO - hier kann man nochmal bei illustrator nachmalen*/
+        }
+
+        .cls-12:hover{
+          /* transition: all 0.5s;
+          transform: rotate(40deg);  ich würde gerne die drehen lassen, wie bei den Flaschen */ 
         }
   
         .cls-12, .cls-14, .cls-15 {
@@ -129,5 +160,12 @@
         }
   
         .cls-14 {
-          stroke: #fbee6d;
+          /* stroke: #fbee6d; */
+          fill: #a20d46;
+        stroke: #fbee6d;
+        }
+
+        .cls-14:hover{
+            transition: all 0.5s;
+            transform: translate(5px);
         }
