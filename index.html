@@ -44,6 +44,7 @@
               </svg>
         </a>
     </div>
+
     <!-- SECTION Wilkommen -->
     <section id="welcome">
         <h1>Wilkommen bei,<strong id="subtitle"> WüWein</strong></h1>
@@ -96,7 +97,6 @@
       </div>
     </div>
   </section>
-<!-- Slider -->
 
     <!-- SECTION Sortiment -->
     <section id="sortiment" class="section_2">
@@ -134,6 +134,7 @@
             </div>
         </figure>
     </section>
+
     <!-- SECTION Region -->
     <section id="standorte">
         <h2>Frisch aus der Region</h2>
@@ -214,16 +215,26 @@
         <div class="yt_video">
             <iframe width="600" height="350" src="https://www.youtube.com/embed/b0g3aKqIk2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     </section>
+
     <!-- SECTION Quiz -->
     <div id="quiz">
-        <h3>Quiz</h3>
-        <fieldset>
-
-        </fieldset>
+        <h2>Wü-Wein Quiz</h2>
+        <div class="quizContent"></div>
+        <button id="quiz-btn">Start!</button>
     </div>
+
     <!-- SECTION Formular -->
+    <section>
+    <h2>Kontakt aufnehmen</h2>
+            <p>Sie sind auf der Suche nach erstklassigen Weinen? Bei uns finden Sie die perfekte Auswahl.
+
+                <br>Gerne stehen wir Ihnen für Fragen, Beratung oder Bestellungen zur Verfügung. Füllen Sie einfach das Kontaktformular aus und wir melden uns umgehend bei Ihnen.
+                
+                <br>Tauchen Sie ein in die Welt von WueWein und lassen Sie sich von unseren erlesenen Tropfen verführen.
+                
+                <br>Ihr WüWein-Team!</p>
+                <br>
         <form>
-            <h2>Kontakt aufnehmen</h2>
             <fieldset>
                     <h3>Ihre Daten</h3>
                 <p>
@@ -251,12 +262,12 @@
                     <input type="tel" placeholder="'+49 1234567 89'">
                 </p>
                 <p>
-                    Wein-Art
+                    <label for="">Ihre Wein-Auswahl</label>
                     <select name="" id="">
                         <option value="" disabled selected>Auswahl</option>
-                        <option value="">Rotwein</option>
-                        <option value="">Weiswein</option>
-                        <option value="">Spezialwein</option>
+                        <option value="">Fellbacher Tradition, Trollinger (2016)</option>
+                        <option value="">Rotenberg, Spätburgunder (2014)</option>
+                        <option value="">Alte Weinsteige, Gutedel (2008)</option>
                     </select>
                 </p>
                 <p>
@@ -266,7 +277,10 @@
                     
                 </p>
                 <h3>AGBs</h3>
+                <p>
                     <a href="#">Zu den Geschäftsbedingungen..</a>
+                </p>
+                    
                 <p>
                     <br>
                     <input type="checkbox" name="" id="">
@@ -280,6 +294,7 @@
         </form>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis hic molestiae doloribus! Aliquam accusamus minus ducimus reiciendis, quia molestias maxime sit eveniet veniam rerum vel dicta animi alias consequatur soluta!</p>
     <br>
+</section>
     <!-- ANCHOR Footer-->
     <footer>
             <!--SVG-Logo-->
@@ -316,6 +331,6 @@
             <br>
             <small>Copyright@2023 Wü-Wein - Wü.Wein A.G. - Stuttgart, DE 70372</small>
     </footer>
-    <script src="index2.js"></script>
+    <script src="./scripts/wueQuiz.js"></script>
 </body>
 </html>

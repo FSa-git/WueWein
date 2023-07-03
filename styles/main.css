@@ -15,6 +15,8 @@
 *, html, body{
     scroll-behavior: smooth;
 
+    scroll-padding-top: 8rem; /* Abstand zwischen navbar und der Section */
+
     /* Um Nav-bar über den ganzen Bildschirm verläuft */
     margin: 0;
     padding: 0;
@@ -47,6 +49,8 @@ button{
 
 /*NOTE - Unterstrichener Effekt */
 h2 {
+    margin-bottom: 20px;
+
     text-align: center;
     text-decoration: none;
     

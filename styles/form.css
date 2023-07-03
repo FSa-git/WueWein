@@ -1,8 +1,10 @@
-form{
+/* Styles für das Formular */
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+  }
 
 form h3{
     text-decoration: underline;
@@ -12,7 +14,6 @@ input{
     width: auto;
 }
 
-
 .form-btn{
     padding: 10px 20px;
     font-family: 'Jost';
@@ -20,8 +21,9 @@ input{
     background-color: #a20d46;
     border-style: none;
     display: block;
-    width: 100%;
+    width: 50%;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .form-btn:hover{
@@ -60,3 +62,42 @@ fieldset{
     border-radius: 15px;
     background-color: #1d1d1b;
 }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles für die Auswahl */
+  select {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #912b2b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+  fieldset p{
+    padding-left: 20px;
+  }
