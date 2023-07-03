@@ -6,15 +6,45 @@
         },
         {
             "frage": "Woher kommt W?",
-            "richtig": "Baden-Württemberg"
+            "richtig": "3"
         },
         {
             "frage": "Woher kommt W?",
-            "richtig": "Baden-Württemberg"
+            "richtig": "Württemberg"
         },
         {
             "frage": "Woher kommt W?",
-            "richtig": "Baden-Württemberg"
+            "richtig": "1888"
+        }
+    ],
+    "antworten": [
+        {
+            "erstens": "Hessen",
+            "zweitens": "NRW",
+            "drittens": "Bayern",
+            "viertens": "Baden-Würrtemberg"
+        },
+        {
+            "erstens": "Wuerzig",
+            "zweitens": "NRW",
+            "drittens": "3",
+            "viertens": "Würrtemberg"
+        },
+        {
+            "erstens": "Hessen",
+            "zweitens": "NRW",
+            "drittens": "Bayern",
+            "viertens": "1888"
+        }
+    ],
+    "rueckmeldungen": [
+        {
+            "ergebnis": "sehrgut",
+            "anzeige": "Du hast alles richtig"
+        },
+        {
+            "ergebnis": "Schlecht",
+            "anzeige": "Du bist Kacke, vllt. beim nächstes Mal!"
         }
     ]
 }
