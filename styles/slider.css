@@ -1,0 +1,56 @@
+/* Slider für die CSS-Datei */
+
+.slider-container{
+    max-width: 760px;
+    margin: auto;
+    border: 3px solid #fff;
+    background: #fff;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main-class-imgs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    /* Beim letzten Zustand, opacity 1*/
+to {
+    opacity: 1;
+}
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
+
+/* Vor- und Zurück "Buttons" */
+.main-class-img{
+    position: relative;
+}
+
+#forward, #back {
+    cursor: pointer;
+    position: absolute; /* Über was anderes liegen, richtet sich nach dem nächst höchsten Element, dass nicht die Position static hat.  (Der Rand ist FEST)*/
+    bottom: 20px;
+
+    /* Größe des Elementes/Pixel/Quadrat */
+    width: 0;
+    height: 0;
+    
+    border: 20px solid rgba(255, 255, 255, 0.74); /* 20 Pixel Breiten Border */
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+} 
+#back {
+border-left-color: transparent; left: 10px;
+} 
+#forward {
+    border-right-color: transparent; /* Hier sagt man welche Richtung es verschwinden soll */
+    right: 10px;
+}

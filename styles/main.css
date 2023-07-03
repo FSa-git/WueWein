@@ -1,5 +1,7 @@
 /* Main-CSS */
 
+@import "slider.css";
+
 @import "fonts.css";
 @import "var.css";
 @import "logo.css";
