@@ -15,22 +15,24 @@ fetch('./json/quiz.json')
     const quizContainer = document.getElementById('quizContainer');
     const quizResult = document.getElementById('quizResult');
 
-    // Funktion zum Anzeigen der aktuellen Frage
+// Funktion zum Anzeigen der aktuellen Frage
 function zeigeFrage() {
-    // Frage anzeigen
-    frageElement.textContent = fragen[aktuelleFrage].frage;
-  
-    // Optionen anzeigen
-    const antwortenOptionen = antworten[aktuelleFrage];
-    quizContainer.innerHTML = '';
-    for (let option in antwortenOptionen) {
-      const optionText = antwortenOptionen[option];
-      const optionElement = document.createElement('button');
-      optionElement.textContent = optionText;
-      optionElement.addEventListener('click', antwortAuswählen);
-      quizContainer.appendChild(optionElement);
-    }
+  // Frage anzeigen
+  frageElement.textContent = fragen[aktuelleFrage].frage;
+
+  // Optionen anzeigen
+  const antwortenOptionen = antworten[aktuelleFrage];
+  quizContainer.innerHTML = '';
+  for (let option in antwortenOptionen) {
+    const optionText = antwortenOptionen[option];
+    const optionElement = document.createElement('button');
+    optionElement.textContent = optionText;
+    optionElement.classList.add('option-button');
+    optionElement.addEventListener('click', antwortAuswählen);
+    quizContainer.appendChild(optionElement);
   }
+}
+
   
 
     // Funktion zur Überprüfung der ausgewählten Antwort

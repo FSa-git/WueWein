@@ -1,0 +1,68 @@
+/* CSS für das Quiz */
+
+#quiz {
+  background-color: var(--FarbeSchwarz);
+}
+
+.quizContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#frage{
+    text-decoration: none;
+    background-color: var(--FarbeDunkelRot);
+    padding: 10px;
+    font-style: italic;
+}
+
+/* .quizContainer{
+    display: flex;
+    flex-direction: column;
+} */
+
+.option-button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: var(--FarbeDunkelRot);
+    border-style: none;
+    color: var(--FarbeWeiss);
+    font-family: 'Jost';
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.option-button:hover{
+    background-color: var(--FarbeRot);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+#frage:hover{
+    cursor: pointer;
+    background-color: var(--FarbeRot);
+    animation: leichtesBewegen 10.0s infinite;
+}
+
+@keyframes leichtesBewegen {
+    0% {
+      transform: rotate(2deg);
+    }
+    25%{
+        transform: rotate(-2deg);
+    }
+    50%{
+        transform: rotate(2deg);
+    }
+    75%{
+        transform: rotate(-2deg);
+    }
+
+    100% {
+      transform: rotate(2deg);
+    }
+  }

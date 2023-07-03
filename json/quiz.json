@@ -1,46 +1,46 @@
 {
     "fragen": [
         {
-            "frage": "Woher kommt W?",
-            "richtig": "Baden-Württemberg"
+            "frage": "Wie nennt man den Vorgang, bei dem der Wein in Flaschen abgefüllt und für eine gewisse Zeit gelagert wird, um seine Aromen zu entwickeln?",
+            "richtig": "Reifen"
         },
         {
-            "frage": "Woher kommt W2?",
-            "richtig": "3"
+            "frage": "Welche Rebsorte ist eine Spezialität der deutschen Weinregion Baden-Württemberg?",
+            "richtig": "Spätburgunder (Pinot Noir)"
         },
         {
-            "frage": "Woher kommt W3?",
-            "richtig": "Württemberg"
+            "frage": "Welche Temperatur wird empfohlen, um Rotwein zu servieren?",
+            "richtig": "Gekühlt bei etwa 16-18 °C"
         },
         {
-            "frage": "Woher kommt W4?",
-            "richtig": "1888"
+            "frage": "Welche Stadt in Baden-Württemberg ist für ihre berühmte Weinlage 'Schlossberg' bekannt?",
+            "richtig": "Freiburg im Breisgau"
         }
     ],
     "antworten": [
         {
-            "erstens": "Hessen",
-            "zweitens": "NRW",
-            "drittens": "Bayern",
-            "viertens": "Baden-Würrtemberg"
+            "erstens": "Dekantieren",
+            "zweitens": "Vinifizieren",
+            "drittens": "Lagern",
+            "viertens": "Reifen"
         },
         {
-            "erstens": "Wuerzig",
-            "zweitens": "NRW",
-            "drittens": "3",
-            "viertens": "Würrtemberg"
+            "erstens": "Riesling",
+            "zweitens": "Spätburgunder (Pinot Noir)",
+            "drittens": "Silvaner",
+            "viertens": "Vermentino"
         },
         {
-            "erstens": "Hessen",
-            "zweitens": "NRW",
-            "drittens": "Bayern",
-            "viertens": "1888"
+            "erstens": "Raumtemperatur",
+            "zweitens": "Gekühlt bei etwa 8-12 °C",
+            "drittens": "Gekühlt bei etwa 16-18 °C",
+            "viertens": "Warm bei etwa 40-45 °C"
         },
         {
-            "erstens": "Hessen",
-            "zweitens": "NRW",
-            "drittens": "Bayern",
-            "viertens": "1888"
+            "erstens": "Stuttgart",
+            "zweitens": "Karlsruhe",
+            "drittens": "Freiburg im Breisgau",
+            "viertens": "Heidelberg"
         }
     ],
     "rueckmeldungen": [
