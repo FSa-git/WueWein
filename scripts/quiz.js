@@ -1,3 +1,4 @@
+
 // Laden der JSON-Daten
 fetch('./json/quiz.json')
   .then(response => response.json())
@@ -33,8 +34,6 @@ function zeigeFrage() {
   }
 }
 
-  
-
     // Funktion zur Überprüfung der ausgewählten Antwort
     function antwortAuswählen(event) {
       const ausgewählteAntwort = event.target.textContent;
@@ -56,23 +55,14 @@ function zeigeFrage() {
 
     // Funktion zur Anzeige des Quiz-Ergebnisses
     function zeigeErgebnis() {
-    //   quizContainer.style.display = 'none';
 
-    //   const punktzahlProzent = (punktzahl / fragen.length) * 100;
-    //   let ergebnisText = '';
-
-    //   if (punktzahlProzent >= 70) {
-    //     ergebnisText = rueckmeldungen[0].anzeige;
-    //   } else {
-    //     ergebnisText = rueckmeldungen[1].anzeige;
-    //   }
-
-    //   const ergebnisElement = document.createElement('p');
-    //   ergebnisElement.textContent = 'Ergebnis: ' + ergebnisText;
-    //   quizResult.appendChild(ergebnisElement);
-        
+    // Quiz-Container ausblenden   
     quizContainer.style.display = 'none';
 
+    // Frage ausblenden
+    frageElement.style.display = 'none';
+
+    // Ergebnis anzeigen
     const anzahlRichtigeAntworten = punktzahl;
     const ergebnisElement = document.createElement('p');
     ergebnisElement.textContent = 'Du hast ' + anzahlRichtigeAntworten + ' von ' + fragen.length + ' Fragen richtig beantwortet.';
@@ -81,6 +71,10 @@ function zeigeFrage() {
     if(punktzahl >= 3){
         const lobesText = document.createElement('p');
         lobesText.innerText = 'Wie es aussieht, bist du ein richtiger Weinkennner! Weiter so!';
+    }
+    if(punktzahl < 3){
+        const lobesText = document.createElement('p');
+        lobesText.innerText = 'Das war leider nichts. Versuche es doch noch einmal!';
     }
 }
 
