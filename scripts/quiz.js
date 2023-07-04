@@ -1,4 +1,4 @@
-
+"use strict";
 // Laden der JSON-Daten
 fetch('./json/quiz.json')
   .then(response => response.json())
