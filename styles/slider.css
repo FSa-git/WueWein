@@ -30,7 +30,7 @@
   }
   .slider-nav {
     display: flex;
-    column-gap: 1rem;
+    column-gap: 0.5rem;
     position: absolute;
     bottom: 1.25rem;
     left: 50%;
@@ -49,3 +49,22 @@
   .slider-nav a:hover {
     opacity: 1;
   }
+
+  .slider-prev, .slider-next{
+    display: inline-block;
+    width: 30px;
+  height: 30px;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity 250ms;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  opacity: 1;
+}
+

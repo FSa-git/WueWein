@@ -15,13 +15,13 @@ input{
 }
 
 .form-btn{
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-family: 'Jost';
     border-radius: 30px;
     background-color: #a20d46;
     border-style: none;
     display: block;
-    width: 50%;
+    width: 80%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
