@@ -24,13 +24,13 @@ function showSlide(index) {
   }
 }
 
-// Funktion zum Wechseln zum vorherigen Slide
+// Funktion zum Wechseln zur vorherigen Slide
 function prevSlide() {
   const newIndex = currentIndex - 1;
   showSlide(newIndex);
 }
 
-// Funktion zum Wechseln zum nächsten Slide
+// Funktion zum Wechseln zur nächsten Slide
 function nextSlide() {
   const newIndex = currentIndex + 1;
   showSlide(newIndex);
