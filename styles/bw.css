@@ -1,219 +1,219 @@
 
 #Ebene_3{
 
-    width: 450px;
-    height: 350px;
+  /* width: 450px;
+  height: 350px; */
 }
 
 .cls-9 {
-        stroke: #000;
+      stroke: #000;
 }
 
 .cls-9, .cls-8 {
-        fill: none;
-        stroke-miterlimit: 10;
-        stroke-width: 10px;
-      }
+      fill: none;
+      stroke-miterlimit: 10;
+      stroke-width: 10px;
+    }
 
 .cls-8 {
-        fill: #a20d46;
-        stroke: #fbee6d;
-      }
+      fill: #a20d46;
+      stroke: #fbee6d;
+    }
 
-      /* Ohne Key-Frames */
+    /* Ohne Key-Frames */
 /* .cls-8:hover{
-    transition: all 0.5s;
-    transform: translate(5px);
+  transition: all 0.5s;
+  transform: translate(5px);
 } */
 
 /* Mit Key-Frames */
 .cls-8:hover{
-  animation: bewegeBw 1.5s forwards; 
+animation: bewegeBw 1.5s forwards; 
 }
 
 @keyframes bewegeBw{
-  /* 0%{
-    transform: translate(0);
-  }
-  50%{
-    transform: translate(15px);
-  }
-  100%{
-    transform: translate(0);
-  } */
+/* 0%{
+  transform: translate(0);
+}
+50%{
+  transform: translate(15px);
+}
+100%{
+  transform: translate(0);
+} */
 
 /* Es soll größer werden */
 
-  0%{
-    transform: translate(0);
-  }
-  100%{
-    transform: translate(15px);
-  }
+0%{
+  transform: translate(0);
+}
+100%{
+  transform: translate(15px);
+}
 }
 
 /* Zurück */
 
 .cls-8:not(:hover) {
-  animation: bewegeBwBack 1.5s forwards;
+animation: bewegeBwBack 1.5s forwards;
 }
 
 @keyframes bewegeBwBack{
-  0%{
-    transform: translate(15px);
-  }
-  100%{
-    transform: translate(0);
-  }
+0%{
+  transform: translate(15px);
+}
+100%{
+  transform: translate(0);
+}
 }
 
 .bw_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  margin-top: 100px;
 }
 
 .flex-item-1{
-    order: 1;
+  order: 1;
 }
 
 .flex-item-2{
-    order: 2;
+  order: 2;
 }
 
 .flex-item-3{
-    order: 3;
-    margin-bottom: 100px;
+  order: 3;
+  margin-bottom: 100px;
 }
 
 .yt_video{
-    display: flex;
-    
-    justify-content: center;
-    
+  display: flex;
+  
+  justify-content: center;
+  
 }
 
 #bw_video{
-    width: 150px;
-    height: 200px;
+  /* width: 150px;
+  height: 200px; */
 }
 
 /*SECTION - BIO Label */
 
 #Bio_Label{
-    width: 450px;
-    height: 350px;
+  /* width: 450px;
+  height: 350px; */
 }
 
 .cls-10 {
-  fill: #fbee6d;
+fill: #fbee6d;
 }
 
 .cls-20 {
-  fill: #a20d46;
+fill: #a20d46;
 }
 
 .cls-30 {
-  fill: #000;
+fill: #000;
 }
 /* #Gelbe_Sterne:hover{
-  transition: all 0.5s;
-  transform: translate(5px);
+transition: all 0.5s;
+transform: translate(5px);
 }
 
 #Bio_Label:hover{
-  transition: all 4.0s;
-  transform: rotate(20deg) ;
+transition: all 4.0s;
+transform: rotate(20deg) ;
 } */
 
 #Roter_Hintergrund:hover + #Gelbe_Sterne .star {
-    animation: moveStars 2s;
-  }
-  
-  @keyframes moveStars {
-    0% {
-      transform: translate(0); 
-    }
+  animation: moveStars 2s;
+}
 
-    50%{
-      transform: translate(5px) ;
-    }
-
-    100% {
-      transform: translate(0) ;
-    }
-
+@keyframes moveStars {
+  0% {
+    transform: translate(0); 
   }
 
-      /*!SECTION Traube */
+  50%{
+    transform: translate(5px) ;
+  }
+
+  100% {
+    transform: translate(0) ;
+  }
+
+}
+
+    /*!SECTION Traube */
 
 #Traube{
-    width: 450px;
-    height: 350px;
+  /* width: 450px;
+  height: 350px; */
 }
 
 #Traube:hover{
-    /* transition: all 3.0s;
-    transform: rotate(20deg) ; */
+  /* transition: all 3.0s;
+  transform: rotate(20deg) ; */
 
-    animation: bewegeWein 2.5s infinite;
+  animation: bewegeWein 2.5s infinite;
 }
 
 @keyframes bewegeWein {
-    0% {
-      transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(25deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
   }
+  25%{
+      transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 .cls-11 {
-  stroke-width: 3px;
+stroke-width: 3px;
 }
-  
+
 .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
+stroke-linecap: round;
+stroke-miterlimit: 10;
 }
 
 .cls-11, .cls-12, .cls-13, .cls-15 {
-  stroke: #000;
+stroke: #000;
 }
 
 .cls-11, .cls-13, .cls-14, .cls-15 {
-  fill: none;
+fill: none;
 }
 
 .cls-12 {
-  fill: #a20d46; /*TODO - hier kann man nochmal bei illustrator nachmalen*/
+fill: #a20d46; /*TODO - hier kann man nochmal bei illustrator nachmalen*/
 }
 
 .cls-12:hover{
-  /* transition: all 0.5s;
-  transform: rotate(40deg);  ich würde gerne die drehen lassen, wie bei den Flaschen */ 
+/* transition: all 0.5s;
+transform: rotate(40deg);  ich würde gerne die drehen lassen, wie bei den Flaschen */ 
 }
 
 .cls-12, .cls-14, .cls-15 {
-  stroke-width: 5px;
+stroke-width: 5px;
 }
 
 .cls-13 {
-  stroke-width: 4px;
+stroke-width: 4px;
 }
 
 .cls-14 {
-  /* stroke: #fbee6d; */
-  fill: #a20d46;
+/* stroke: #fbee6d; */
+fill: #a20d46;
 stroke: #fbee6d;
 }
 
 .cls-14:hover{
-    transition: all 0.5s;
-    transform: translate(5px);
+  transition: all 0.5s;
+  transform: translate(5px);
 }
