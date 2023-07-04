@@ -77,7 +77,8 @@ if(!empty($selectedWeine)){
     }
 }
 
-echo "<p>Nachricht: <strong>$msg</strong></p>";
+print "<h2>Ihre Nachricht</h2>";
+echo "<p>$name.,$nachname.:<strong>$msg</strong></p>";
 
 echo "<p>Vielen Dank für Ihre Anfrage!</p>";
 
