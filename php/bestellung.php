@@ -24,9 +24,27 @@ $land = $_POST["land"];
 $tel = $_POST["tel"];
 
 // Auswahl
-$trollinger = $_POST["trollinger"];
-$spaethburgunder = $_POST["spaethburgunder"];
-$gutedel = $_POST["gutedel"];
+
+// $trollinger = $_POST["trollinger"];
+// $spaethburgunder = $_POST["spaethburgunder"];
+// $gutedel = $_POST["gutedel"];
+
+$weinAuswahl = $_POST["weinAuswahl"];
+$selectedWeine = [];
+
+if(is_array($weinAuswahl)){
+    foreach($weinAuswahl as $wein){
+      if($wein == "trollinger"){
+        $selectedWeine[] = "Fellbacher Tradition, Trollinger (2016)";
+      }
+      if($wein == "spaetburgunder"){
+        $selectedWeine[] = "Rotenberg, Spätburgunder (2014)";
+      }
+      if($wein == "gutedel"){
+        $selectedWeine[] = "Alte Weinsteige, Gutedel (2008)";
+      }
+    }
+  }
 
 $msg = $_POST["msg"];
 
@@ -42,14 +60,21 @@ echo "<p>Land: <strong>$land</strong></p>";
 echo "<p>Telefonnummer: <strong>$tel</strong></p>";
 
 print "<h2>Ihre Auswahl</h2>";
-if($trollinger == "trollinger"){
-    echo "<p>Trollinger: <strong>$trollinger</strong></p>";
-}
-if($spaethburgunder == "spaethburgunder"){
-    echo "<p>Spätburgunder: <strong>$spaethburgunder</strong></p>";
-}
-if($gutedel == "gutedel"){
-    echo "<p>Gutedel: <strong>$gutedel</strong></p>";
+
+// if($trollinger == "trollinger"){
+//     echo "<p>Trollinger: <strong>$trollinger</strong></p>";
+// }
+// if($spaethburgunder == "spaethburgunder"){
+//     echo "<p>Spätburgunder: <strong>$spaethburgunder</strong></p>";
+// }
+// if($gutedel == "gutedel"){
+//     echo "<p>Gutedel: <strong>$gutedel</strong></p>";
+// }
+
+if(!empty($selectedWeine)){
+    foreach($selectedWeine as $wein){
+      echo "<p>Wein-Auswahl: <strong>$wein</strong></p>";
+    }
 }
 
 echo "<p>Nachricht: <strong>$msg</strong></p>";
