@@ -10,7 +10,9 @@
 <body>
     <header>
         <nav>
-       <!--SVG-Logo-->
+       <!--SVG-Logo -->
+       <!-- Validator meint ich sollte das '?' entfernen, doch dann geht das Logo über nav und das möchte ich nicht..-->
+       <!-- Gennauso ändere ich nicht die anderen SVGs da sich hier die Struktur, nicht gewollt, verändern lässt -->
         <?xml version="1.0" encoding="UTF-8"?>
         <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.73 127.78">
           <g>
@@ -96,38 +98,29 @@
         <h2>Unsere Weine</h2>
         <figure id="troll">
             <img src="./img/troImg.png" alt="Wein Nr. 1" class="wein_flasche">
-            <div>
                 <figcaption>
                     <h4>Fellbacher Tradition</h4>
-                    <div>Trollinger</div>
+                    <p>Trollinger</p>
                 </figcaption>
-                <br>
                 <p>Eine Rotweinrebsorte, die spät reift und jung getrunken wird. Erzeugt fruchtige Weine mit leichten Tanninen und einem charmanten, leicht würzigen Charakter. Ein beliebtes schwäbisches Nationalgetränk.</p>
-            </div>
         </figure>
-    <br>
+        <br>
         <figure id="burg">
             <img src="./img/spaetImg.png" alt="Wein Nr. 1" class="wein_flasche">
-            <div>
                 <figcaption>
                     <h4>Rotenberg</h4>
-                    <div>Spätburgunder</div>
+                    <p>Spätburgunder</p>
                 </figcaption>
-                <br>
-                <p>Ein eleganter Rotwein mit Aromen von roten Früchten, zarter Würze und feinen Tanninen. Ein Klassiker aus dem Württemberg.</p>                
-            </div>
+                <p>Ein eleganter Rotwein mit Aromen von roten Früchten, zarter Würze und feinen Tanninen. Ein Klassiker aus dem Württemberg.</p>
         </figure>
         <br>
         <figure id="gute">
             <img src="./img/riesImg.png" alt="Wein Nr. 1" class="wein_flasche">
-            <div>
                 <figcaption>
                     <h4>Alte Weinsteige</h4>
-                    <div>Gutedel</div>
+                    <p>Gutedel</p>
                 </figcaption>
-                <br>
                 <p>Weiße Rebsorte mit frischen Aromen von grünen Äpfeln, Zitrusfrüchten und einer leicht mineralischen Note. Ein erfrischender Weißwein mit angenehmer Säure.</p>
-            </div>
         </figure>
     </section>
 
@@ -209,7 +202,7 @@
         <p>Unsere Winzer nutzen ihr fundiertes Wissen und ihre Leidenschaft, um das volle Potenzial der Württembergischen Weinregion zu entfalten und Weine von unvergleichlicher Qualität und Charakteristik zu schaffen. Bis jetzt werden wir an 4 Standorten vertreten.</p>       
         <h1 id="hashtag">#WÜWEIN</h1>
         <div class="yt_video">
-            <iframe width="600" height="350" src="https://www.youtube.com/embed/b0g3aKqIk2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/b0g3aKqIk2Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     </section>
 
     <!-- SECTION Quiz -->
@@ -261,7 +254,8 @@
                     <input type="tel" id="tel" name="tel" placeholder="'+49 1234567 89'">
                 </p>
                 <p>
-                    <label for="">Ihre Wein-Auswahl</label>
+                    <!-- PHP-Formular -->
+                    <label for="auswahl">Ihre Wein-Auswahl</label>
                     <select name="weinAuswahl[]" id="auswahl">
                         <option value="" disabled selected>Auswahl</option>
                         <option value="trollinger">Fellbacher Tradition, Trollinger (2016)</option>
@@ -270,7 +264,7 @@
                     </select>
                 </p>
                 <p>
-                    <label for="">Nachricht</label>
+                    <label for="msg">Nachricht</label>
                     <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Schreiben Sie uns hier eine Nachricht.."></textarea>
                     
                 </p>
@@ -281,8 +275,8 @@
                     
                 <p>
                     <br>
-                    <input type="checkbox" name="" id="">
-                    <label for="">Akzeptiert und gelesen</label>
+                    <input type="checkbox">
+                    <label>Akzeptiert und gelesen</label>
                 </p>
                 <p>
                     <button class="form-btn" type="reset" value="Zuruecksetzen">Zurücksetzen</button>
