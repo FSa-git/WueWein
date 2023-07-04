@@ -7,15 +7,18 @@
   }
   .slider-wrapper {
     position: relative;
-    width: 100%;
-    height: 800px;
+
+    /* Anpassung der größe des Sliders */
+    width: 1020px;
+    height: 600px;
+    
     margin: 0 auto;
     overflow: hidden;
   }
   .slider {
     display: flex;
     overflow: hidden;
-    width: 100%;
+    width: auto;
     scroll-snap-type: x mandatory;
   }
   .slider img {
