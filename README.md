@@ -1,4 +1,4 @@
-# WueWein – A Fictional Wine Marketing Project
+# WueWein – A Fictional Wine Marketing Project 🍷
 
 ## About the Project
 **WueWein** is a fictional wine brand from Württemberg, Germany, created as part of a **media design project** during my first year of training. The goal was to design a **marketing website** that promotes this fictional product while applying various design and development skills.
